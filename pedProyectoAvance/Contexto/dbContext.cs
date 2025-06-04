@@ -13,6 +13,12 @@ public class dbContext : DbContext
     public DbSet<Estado> Estado { get; set; }
     public DbSet<TipoEmpleado> TipoEmpleados { get; set; }
 
+    public DbSet<Cita> Cita { get; set; }
+
+    public DbSet<Pacientes> Pacientes { get; set; }
+
+
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Empleados>()
