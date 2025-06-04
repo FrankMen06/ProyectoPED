@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             dtGPacientes = new DataGridView();
+            btnAgregarPaciente = new Button();
             ((System.ComponentModel.ISupportInitialize)dtGPacientes).BeginInit();
             SuspendLayout();
             // 
@@ -37,28 +38,42 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Historic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(435, 44);
+            label1.Location = new Point(567, 62);
             label1.Name = "label1";
-            label1.Size = new Size(250, 32);
+            label1.Size = new Size(308, 41);
             label1.TabIndex = 0;
             label1.Text = "Listado de Pacientes";
             // 
             // dtGPacientes
             // 
             dtGPacientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtGPacientes.Location = new Point(84, 118);
+            dtGPacientes.Location = new Point(132, 169);
+            dtGPacientes.Margin = new Padding(3, 4, 3, 4);
             dtGPacientes.Name = "dtGPacientes";
-            dtGPacientes.Size = new Size(937, 435);
+            dtGPacientes.RowHeadersWidth = 51;
+            dtGPacientes.Size = new Size(1162, 580);
             dtGPacientes.TabIndex = 1;
+            // 
+            // btnAgregarPaciente
+            // 
+            btnAgregarPaciente.Location = new Point(1103, 108);
+            btnAgregarPaciente.Name = "btnAgregarPaciente";
+            btnAgregarPaciente.Size = new Size(179, 54);
+            btnAgregarPaciente.TabIndex = 2;
+            btnAgregarPaciente.Text = "Agregar Paciente";
+            btnAgregarPaciente.UseVisualStyleBackColor = true;
+            btnAgregarPaciente.Click += btnAgregarPaciente_Click;
             // 
             // PacientesList
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1110, 650);
+            ClientSize = new Size(1427, 930);
+            Controls.Add(btnAgregarPaciente);
             Controls.Add(dtGPacientes);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "PacientesList";
             Text = "PacientesList";
             ((System.ComponentModel.ISupportInitialize)dtGPacientes).EndInit();
@@ -70,5 +85,6 @@
 
         private Label label1;
         private DataGridView dtGPacientes;
+        private Button btnAgregarPaciente;
     }
 }

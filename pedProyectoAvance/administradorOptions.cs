@@ -30,7 +30,7 @@ namespace pedProyectoAvance
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            administrarPacientes administrarPacientes = new administrarPacientes( null, null, _context, false);
+            PacientesList administrarPacientes = new PacientesList(_context);
             administrarPacientes.Show();
         }
 

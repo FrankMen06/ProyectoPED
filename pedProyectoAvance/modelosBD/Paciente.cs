@@ -18,7 +18,7 @@ public class Paciente
     public string Telefono{ get; set;}
     public string Sexo{ get; set;}
     public int Edad{ get; set;}
-    public int TipoSangre { get; set;}
+    public string TipoSangre { get; set;}
     public decimal Estatura { get; set;}
     public decimal Peso { get; set;}
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\francisco.mendoza\\Documents\\PED\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj": {}
+    "C:\\Users\\fm790\\Desktop\\PEDFASE2\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\francisco.mendoza\\Documents\\PED\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj": {
+    "C:\\Users\\fm790\\Desktop\\PEDFASE2\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.mendoza\\Documents\\PED\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj",
+        "projectUniqueName": "C:\\Users\\fm790\\Desktop\\PEDFASE2\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj",
         "projectName": "pedProyectoAvance",
-        "projectPath": "C:\\Users\\francisco.mendoza\\Documents\\PED\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj",
-        "packagesPath": "C:\\Users\\francisco.mendoza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.mendoza\\Documents\\PED\\ProyectoPED\\pedProyectoAvance\\obj\\",
+        "projectPath": "C:\\Users\\fm790\\Desktop\\PEDFASE2\\ProyectoPED\\pedProyectoAvance\\pedProyectoAvance.csproj",
+        "packagesPath": "C:\\Users\\fm790\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fm790\\Desktop\\PEDFASE2\\ProyectoPED\\pedProyectoAvance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.mendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fm790\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,7 +95,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -36,6 +36,14 @@ namespace pedProyectoAvance
             dtGPacientes.DataSource = listPacientes;
 
         }
+
+        private void btnAgregarPaciente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            administrarPacientes adminPaciente = new administrarPacientes(null, null, _context, true);
+            adminPaciente.Show();
+
+        }
     }
 
 }

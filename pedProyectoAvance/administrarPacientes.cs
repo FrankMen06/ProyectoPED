@@ -14,14 +14,14 @@ namespace pedProyectoAvance
 {
     public partial class administrarPacientes : Form
     {
-        private bool ruta;
+        private bool admin;
         private int doctorId;
         private string nombreDoctor;
         private readonly dbContext _context;
 
         public administrarPacientes(int? doctorId, string? nombreDoctor, dbContext context, bool ruta)
         {
-            this.ruta = ruta;
+            this.admin = ruta;
             _context = context;
             if (doctorId != null && nombreDoctor != null)
             {
@@ -33,7 +33,7 @@ namespace pedProyectoAvance
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            if (this.ruta == true)
+            if (this.admin == true)
             {
                 this.Hide();
                 administradorOptions administradorOptions = new administradorOptions(_context);
@@ -90,8 +90,9 @@ namespace pedProyectoAvance
             paciente.Telefono = txtTelefono.Text;
             paciente.Sexo = cmbSexo.Text;
             paciente.Edad = int.Parse(txtEdad.Text);
-            paciente.Edad = int.Parse(txtEdad.Text);
-            paciente.Edad = int.Parse(txtEdad.Text);
+            paciente.TipoSangre = cmbTipoSangre.Text;
+            paciente.Estatura = int.Parse(txtEstatura.Text);
+            paciente.Peso = int.Parse(txtPeso.Text);
             paciente.Sexo = cmbSexo.Text;
 
             _context.Pacientes.Add(paciente);
