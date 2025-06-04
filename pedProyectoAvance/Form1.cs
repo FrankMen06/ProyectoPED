@@ -7,7 +7,6 @@ public partial class Form1 : Form
 {
     private readonly dbContext _context;
 
-
     public Form1(dbContext context)
     {
         _context = context;

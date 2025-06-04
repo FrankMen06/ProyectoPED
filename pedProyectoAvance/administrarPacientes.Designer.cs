@@ -55,148 +55,158 @@
             label1.AutoSize = true;
             label1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(416, 40);
+            label1.Location = new Point(364, 30);
             label1.Name = "label1";
-            label1.Size = new Size(347, 33);
+            label1.Size = new Size(280, 27);
             label1.TabIndex = 0;
             label1.Text = "Registrar nuevo paciente";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("HYGothic-Extra", 9.2F);
-            label2.Location = new Point(116, 135);
+            label2.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label2.Location = new Point(102, 101);
             label2.Name = "label2";
-            label2.Size = new Size(39, 16);
+            label2.Size = new Size(30, 16);
             label2.TabIndex = 1;
             label2.Text = "DUI";
             // 
             // txtDui
             // 
-            txtDui.Location = new Point(87, 158);
+            txtDui.Location = new Point(76, 118);
+            txtDui.Margin = new Padding(3, 2, 3, 2);
             txtDui.Name = "txtDui";
-            txtDui.Size = new Size(285, 27);
+            txtDui.Size = new Size(250, 23);
             txtDui.TabIndex = 4;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(430, 158);
+            txtNombre.Location = new Point(376, 118);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(285, 27);
+            txtNombre.Size = new Size(250, 23);
             txtNombre.TabIndex = 6;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("HYGothic-Extra", 9.2F);
-            label3.Location = new Point(459, 135);
+            label3.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label3.Location = new Point(402, 101);
             label3.Name = "label3";
-            label3.Size = new Size(163, 16);
+            label3.Size = new Size(117, 16);
             label3.TabIndex = 5;
             label3.Text = "Nombre Completo";
             // 
             // txtEdad
             // 
-            txtEdad.Location = new Point(776, 158);
+            txtEdad.Location = new Point(679, 118);
+            txtEdad.Margin = new Padding(3, 2, 3, 2);
             txtEdad.Name = "txtEdad";
-            txtEdad.Size = new Size(285, 27);
+            txtEdad.Size = new Size(250, 23);
             txtEdad.TabIndex = 8;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("HYGothic-Extra", 9.2F);
-            label4.Location = new Point(805, 135);
+            label4.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label4.Location = new Point(704, 101);
             label4.Name = "label4";
-            label4.Size = new Size(50, 16);
+            label4.Size = new Size(40, 16);
             label4.TabIndex = 7;
             label4.Text = "Edad";
             // 
             // txtPeso
             // 
-            txtPeso.Location = new Point(776, 298);
+            txtPeso.Location = new Point(679, 224);
+            txtPeso.Margin = new Padding(3, 2, 3, 2);
             txtPeso.Name = "txtPeso";
-            txtPeso.Size = new Size(285, 27);
+            txtPeso.Size = new Size(250, 23);
             txtPeso.TabIndex = 14;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("HYGothic-Extra", 9.2F);
-            label5.Location = new Point(805, 275);
+            label5.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label5.Location = new Point(704, 206);
             label5.Name = "label5";
-            label5.Size = new Size(49, 16);
+            label5.Size = new Size(39, 16);
             label5.TabIndex = 13;
             label5.Text = "Peso";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("HYGothic-Extra", 9.2F);
-            label6.Location = new Point(459, 275);
+            label6.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label6.Location = new Point(402, 206);
             label6.Name = "label6";
-            label6.Size = new Size(50, 16);
+            label6.Size = new Size(38, 16);
             label6.TabIndex = 11;
             label6.Text = "Sexo";
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(87, 298);
+            txtTelefono.Location = new Point(76, 224);
+            txtTelefono.Margin = new Padding(3, 2, 3, 2);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(285, 27);
+            txtTelefono.Size = new Size(250, 23);
             txtTelefono.TabIndex = 10;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("HYGothic-Extra", 9.2F);
-            label7.Location = new Point(116, 275);
+            label7.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label7.Location = new Point(102, 206);
             label7.Name = "label7";
-            label7.Size = new Size(83, 16);
+            label7.Size = new Size(61, 16);
             label7.TabIndex = 9;
             label7.Text = "Telefono";
             // 
             // txtEstatura
             // 
-            txtEstatura.Location = new Point(654, 404);
+            txtEstatura.Location = new Point(572, 303);
+            txtEstatura.Margin = new Padding(3, 2, 3, 2);
             txtEstatura.Name = "txtEstatura";
-            txtEstatura.Size = new Size(285, 27);
+            txtEstatura.Size = new Size(250, 23);
             txtEstatura.TabIndex = 20;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("HYGothic-Extra", 9.2F);
-            label8.Location = new Point(683, 381);
+            label8.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label8.Location = new Point(598, 286);
             label8.Name = "label8";
-            label8.Size = new Size(80, 16);
+            label8.Size = new Size(56, 16);
             label8.TabIndex = 19;
             label8.Text = "Estatura";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Font = new Font("HYGothic-Extra", 9.2F);
-            label9.Location = new Point(337, 381);
+            label9.Font = new Font("Microsoft Sans Serif", 9.2F);
+            label9.Location = new Point(295, 286);
             label9.Name = "label9";
-            label9.Size = new Size(138, 16);
+            label9.Size = new Size(101, 16);
             label9.TabIndex = 17;
             label9.Text = "Tipo de Sangre";
             // 
             // cmbSexo
             // 
             cmbSexo.FormattingEnabled = true;
-            cmbSexo.Location = new Point(430, 298);
+            cmbSexo.Items.AddRange(new object[] { "Masculino", "Femenino" });
+            cmbSexo.Location = new Point(376, 224);
+            cmbSexo.Margin = new Padding(3, 2, 3, 2);
             cmbSexo.Name = "cmbSexo";
-            cmbSexo.Size = new Size(285, 28);
+            cmbSexo.Size = new Size(250, 23);
             cmbSexo.TabIndex = 21;
             // 
             // cmbTipoSangre
             // 
             cmbTipoSangre.FormattingEnabled = true;
-            cmbTipoSangre.Location = new Point(310, 404);
+            cmbTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
+            cmbTipoSangre.Location = new Point(271, 303);
+            cmbTipoSangre.Margin = new Padding(3, 2, 3, 2);
             cmbTipoSangre.Name = "cmbTipoSangre";
-            cmbTipoSangre.Size = new Size(285, 28);
+            cmbTipoSangre.Size = new Size(250, 23);
             cmbTipoSangre.TabIndex = 22;
             // 
             // btnAgregar
@@ -204,21 +214,24 @@
             btnAgregar.BackColor = Color.LimeGreen;
             btnAgregar.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAgregar.ForeColor = SystemColors.ButtonHighlight;
-            btnAgregar.Location = new Point(277, 490);
+            btnAgregar.Location = new Point(242, 368);
+            btnAgregar.Margin = new Padding(3, 2, 3, 2);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(165, 55);
+            btnAgregar.Size = new Size(144, 41);
             btnAgregar.TabIndex = 23;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = false;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnRegresar
             // 
             btnRegresar.BackColor = Color.Yellow;
             btnRegresar.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
             btnRegresar.ForeColor = SystemColors.ActiveCaptionText;
-            btnRegresar.Location = new Point(504, 490);
+            btnRegresar.Location = new Point(441, 368);
+            btnRegresar.Margin = new Padding(3, 2, 3, 2);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(165, 55);
+            btnRegresar.Size = new Size(144, 41);
             btnRegresar.TabIndex = 24;
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = false;
@@ -229,19 +242,20 @@
             btnSalir.BackColor = Color.Red;
             btnSalir.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
             btnSalir.ForeColor = SystemColors.ButtonHighlight;
-            btnSalir.Location = new Point(717, 490);
+            btnSalir.Location = new Point(627, 368);
+            btnSalir.Margin = new Padding(3, 2, 3, 2);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(165, 55);
+            btnSalir.Size = new Size(144, 41);
             btnSalir.TabIndex = 25;
             btnSalir.Text = "Cerrar Sesión";
             btnSalir.UseVisualStyleBackColor = false;
             // 
             // administrarPacientes
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
-            ClientSize = new Size(1137, 716);
+            ClientSize = new Size(995, 537);
             Controls.Add(btnSalir);
             Controls.Add(btnRegresar);
             Controls.Add(btnAgregar);
@@ -262,6 +276,7 @@
             Controls.Add(txtDui);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "administrarPacientes";
             Text = "administrarPacientes";
             ResumeLayout(false);
