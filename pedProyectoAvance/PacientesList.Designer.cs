@@ -28,118 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            label1 = new System.Windows.Forms.Label();
-            dtGPacientes = new System.Windows.Forms.DataGridView();
-            btnAgregarPaciente = new System.Windows.Forms.Button();
-            button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
+            label1 = new Label();
+            dtGPacientes = new DataGridView();
+            btnAgregarPaciente = new Button();
             ((System.ComponentModel.ISupportInitialize)dtGPacientes).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Segoe UI Historic", 9.216001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
-            label1.Location = new System.Drawing.Point(567, 62);
+            label1.Font = new Font("Segoe UI Historic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(567, 62);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(170, 21);
+            label1.Size = new Size(308, 41);
             label1.TabIndex = 0;
             label1.Text = "Listado de Pacientes";
             // 
             // dtGPacientes
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            dtGPacientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            dtGPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            dtGPacientes.DefaultCellStyle = dataGridViewCellStyle2;
-            dtGPacientes.Location = new System.Drawing.Point(178, 191);
-            dtGPacientes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            dtGPacientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtGPacientes.Location = new Point(132, 169);
+            dtGPacientes.Margin = new Padding(3, 4, 3, 4);
             dtGPacientes.Name = "dtGPacientes";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            dtGPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dtGPacientes.RowHeadersWidth = 51;
-            dtGPacientes.Size = new System.Drawing.Size(1018, 376);
+            dtGPacientes.Size = new Size(1162, 580);
             dtGPacientes.TabIndex = 1;
             // 
             // btnAgregarPaciente
             // 
-            btnAgregarPaciente.Location = new System.Drawing.Point(996, 113);
+            btnAgregarPaciente.Location = new Point(1103, 108);
             btnAgregarPaciente.Name = "btnAgregarPaciente";
-            btnAgregarPaciente.Size = new System.Drawing.Size(179, 54);
+            btnAgregarPaciente.Size = new Size(179, 54);
             btnAgregarPaciente.TabIndex = 2;
             btnAgregarPaciente.Text = "Agregar Paciente";
             btnAgregarPaciente.UseVisualStyleBackColor = true;
             btnAgregarPaciente.Click += btnAgregarPaciente_Click;
             // 
-            // button1
-            // 
-            button1.AccessibleName = "btnVolver";
-            button1.Location = new System.Drawing.Point(414, 593);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(159, 46);
-            button1.TabIndex = 3;
-            button1.Text = "Volver";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.AccessibleName = "btnSalir";
-            button2.Location = new System.Drawing.Point(748, 593);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(159, 46);
-            button2.TabIndex = 4;
-            button2.Text = "Salir";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
             // PacientesList
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackColor = System.Drawing.SystemColors.ActiveCaption;
-            ClientSize = new System.Drawing.Size(1433, 954);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(1427, 930);
             Controls.Add(btnAgregarPaciente);
             Controls.Add(dtGPacientes);
             Controls.Add(label1);
-            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "PacientesList";
             Text = "PacientesList";
             ((System.ComponentModel.ISupportInitialize)dtGPacientes).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-
         #endregion
 
         private Label label1;
-        private System.Windows.Forms.DataGridView dtGPacientes;
-        private System.Windows.Forms.Button btnAgregarPaciente;
+        private DataGridView dtGPacientes;
+        private Button btnAgregarPaciente;
     }
 }
