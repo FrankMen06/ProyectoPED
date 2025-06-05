@@ -42,10 +42,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Segoe UI Historic", 11.52F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
+            label1.Font = new System.Drawing.Font("Segoe UI Historic", 9.216001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
             label1.Location = new System.Drawing.Point(567, 62);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(208, 28);
+            label1.Size = new System.Drawing.Size(170, 21);
             label1.TabIndex = 0;
             label1.Text = "Listado de Pacientes";
             // 
@@ -68,7 +68,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             dtGPacientes.DefaultCellStyle = dataGridViewCellStyle2;
-            dtGPacientes.Location = new System.Drawing.Point(132, 169);
+            dtGPacientes.Location = new System.Drawing.Point(178, 191);
             dtGPacientes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dtGPacientes.Name = "dtGPacientes";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -80,12 +80,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             dtGPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dtGPacientes.RowHeadersWidth = 51;
-            dtGPacientes.Size = new System.Drawing.Size(1162, 580);
+            dtGPacientes.Size = new System.Drawing.Size(1018, 376);
             dtGPacientes.TabIndex = 1;
             // 
             // btnAgregarPaciente
             // 
-            btnAgregarPaciente.Location = new System.Drawing.Point(1103, 108);
+            btnAgregarPaciente.Location = new System.Drawing.Point(996, 113);
             btnAgregarPaciente.Name = "btnAgregarPaciente";
             btnAgregarPaciente.Size = new System.Drawing.Size(179, 54);
             btnAgregarPaciente.TabIndex = 2;
@@ -96,7 +96,7 @@
             // button1
             // 
             button1.AccessibleName = "btnVolver";
-            button1.Location = new System.Drawing.Point(464, 756);
+            button1.Location = new System.Drawing.Point(414, 593);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(159, 46);
             button1.TabIndex = 3;
@@ -107,7 +107,7 @@
             // button2
             // 
             button2.AccessibleName = "btnSalir";
-            button2.Location = new System.Drawing.Point(798, 756);
+            button2.Location = new System.Drawing.Point(748, 593);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(159, 46);
             button2.TabIndex = 4;
@@ -120,7 +120,7 @@
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.SystemColors.ActiveCaption;
-            ClientSize = new System.Drawing.Size(1431, 946);
+            ClientSize = new System.Drawing.Size(1433, 954);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(btnAgregarPaciente);
@@ -139,7 +139,7 @@
         #endregion
 
         private Label label1;
-        private DataGridView dtGPacientes;
-        private Button btnAgregarPaciente;
+        private System.Windows.Forms.DataGridView dtGPacientes;
+        private System.Windows.Forms.Button btnAgregarPaciente;
     }
 }
