@@ -1,5 +1,4 @@
 ﻿using pedProyectoAvance.Contexto;
-using pedProyectoAvance.modelosBD;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,13 +9,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using pedProyectoAvance.modelosBD;
 
 namespace pedProyectoAvance
 {
     public partial class PacientesList : Form
     {
         private readonly dbContext _context;
-        Dictionary<int, Paciente> pacientesDict = new Dictionary<int, Paciente>();
+        Dictionary<int, Pacientes> pacientesDict = new Dictionary<int, Pacientes>();
 
         public PacientesList(dbContext context)
         {
