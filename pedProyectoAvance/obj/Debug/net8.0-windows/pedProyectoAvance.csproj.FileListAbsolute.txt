@@ -381,3 +381,4 @@ C:\Users\fm790\Desktop\PEDFASE2\ProyectoPED\pedProyectoAvance\obj\Debug\net8.0-w
 C:\Users\fm790\Desktop\PEDFASE2\ProyectoPED\pedProyectoAvance\obj\Debug\net8.0-windows\pedProyectoAvance.pdb
 C:\Users\fm790\Desktop\PEDFASE2\ProyectoPED\pedProyectoAvance\obj\Debug\net8.0-windows\pedProyectoAvance.genruntimeconfig.cache
 C:\Users\fm790\Desktop\PEDFASE2\ProyectoPED\pedProyectoAvance\obj\Debug\net8.0-windows\ref\pedProyectoAvance.dll
+C:\Users\fm790\Desktop\PEDFASE2\ProyectoPED\pedProyectoAvance\obj\Debug\net8.0-windows\pedProyectoAvance.FormCita.resources

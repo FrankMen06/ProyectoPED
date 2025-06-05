@@ -83,7 +83,7 @@ namespace pedProyectoAvance
                 return;
             }
 
-            Paciente paciente = new Paciente();
+            Pacientes paciente = new Pacientes();
 
             paciente.DUI = txtDui.Text;
             paciente.NombreCompleto = txtNombre.Text;

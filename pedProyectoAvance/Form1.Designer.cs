@@ -39,6 +39,7 @@ partial class Form1
         btnIngresar = new Button();
         label3 = new Label();
         label2 = new Label();
+        label4 = new Label();
         ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
         groupBox1.SuspendLayout();
         SuspendLayout();
@@ -46,19 +47,19 @@ partial class Form1
         // label1
         // 
         label1.AutoSize = true;
-        label1.Font = new Font("Stencil", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        label1.Location = new Point(519, 49);
+        label1.Font = new Font("Century Gothic", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+        label1.Location = new Point(348, 85);
         label1.Name = "label1";
-        label1.Size = new Size(451, 44);
+        label1.Size = new Size(461, 44);
         label1.TabIndex = 0;
-        label1.Text = "Bienvenido al Sistema";
+        label1.Text = "¡BIENVENIDO AL SISTEMA!";
         // 
         // pictureBox1
         // 
         pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-        pictureBox1.Location = new Point(601, 110);
+        pictureBox1.Location = new Point(55, 217);
         pictureBox1.Name = "pictureBox1";
-        pictureBox1.Size = new Size(271, 250);
+        pictureBox1.Size = new Size(308, 295);
         pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         pictureBox1.TabIndex = 1;
         pictureBox1.TabStop = false;
@@ -71,77 +72,103 @@ partial class Form1
         groupBox1.Controls.Add(btnIngresar);
         groupBox1.Controls.Add(label3);
         groupBox1.Controls.Add(label2);
-        groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        groupBox1.Location = new Point(412, 382);
+        groupBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        groupBox1.Location = new Point(416, 178);
         groupBox1.Name = "groupBox1";
-        groupBox1.Size = new Size(698, 437);
+        groupBox1.Size = new Size(698, 368);
         groupBox1.TabIndex = 2;
         groupBox1.TabStop = false;
         groupBox1.Text = "Ingrese sus credenciales";
         // 
         // txtPassword
         // 
-        txtPassword.Location = new Point(39, 244);
+        txtPassword.BorderStyle = BorderStyle.FixedSingle;
+        txtPassword.Location = new Point(39, 185);
         txtPassword.Name = "txtPassword";
         txtPassword.PasswordChar = '*';
-        txtPassword.Size = new Size(596, 34);
+        txtPassword.Size = new Size(596, 32);
         txtPassword.TabIndex = 5;
         // 
         // txtUsuario
         // 
-        txtUsuario.Location = new Point(39, 111);
+        txtUsuario.BorderStyle = BorderStyle.FixedSingle;
+        txtUsuario.Location = new Point(39, 91);
         txtUsuario.Name = "txtUsuario";
-        txtUsuario.Size = new Size(596, 34);
+        txtUsuario.Size = new Size(596, 32);
         txtUsuario.TabIndex = 4;
         // 
         // btnSalir
         // 
-        btnSalir.Location = new Point(445, 318);
+        btnSalir.BackColor = Color.LightCoral;
+        btnSalir.FlatStyle = FlatStyle.Flat;
+        btnSalir.ForeColor = Color.White;
+        btnSalir.Location = new Point(343, 260);
         btnSalir.Name = "btnSalir";
-        btnSalir.Size = new Size(113, 79);
+        btnSalir.Size = new Size(191, 47);
         btnSalir.TabIndex = 3;
-        btnSalir.Text = "Cerrar Sistema";
-        btnSalir.UseVisualStyleBackColor = true;
+        btnSalir.Text = "Salir";
+        btnSalir.UseVisualStyleBackColor = false;
         btnSalir.Click += btnSalir_Click;
         // 
         // btnIngresar
         // 
-        btnIngresar.Location = new Point(107, 318);
+        btnIngresar.BackColor = Color.CornflowerBlue;
+        btnIngresar.FlatStyle = FlatStyle.Flat;
+        btnIngresar.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        btnIngresar.ForeColor = Color.White;
+        btnIngresar.Location = new Point(146, 260);
         btnIngresar.Name = "btnIngresar";
-        btnIngresar.Size = new Size(133, 78);
+        btnIngresar.Size = new Size(191, 47);
         btnIngresar.TabIndex = 2;
-        btnIngresar.Text = "Ingresar";
-        btnIngresar.UseVisualStyleBackColor = true;
+        btnIngresar.Text = "Iniciar Sesión";
+        btnIngresar.UseVisualStyleBackColor = false;
         btnIngresar.Click += btnIngresar_Click;
         // 
         // label3
         // 
         label3.AutoSize = true;
-        label3.Location = new Point(39, 199);
+        label3.Font = new Font("Century Gothic", 12F);
+        label3.Location = new Point(39, 154);
         label3.Name = "label3";
-        label3.Size = new Size(110, 28);
+        label3.Size = new Size(125, 23);
         label3.TabIndex = 1;
         label3.Text = "Contraseña";
         // 
         // label2
         // 
         label2.AutoSize = true;
-        label2.Location = new Point(39, 71);
+        label2.Font = new Font("Century Gothic", 12F);
+        label2.Location = new Point(39, 60);
         label2.Name = "label2";
-        label2.Size = new Size(79, 28);
+        label2.Size = new Size(79, 23);
         label2.TabIndex = 0;
         label2.Text = "Usuario";
+        // 
+        // label4
+        // 
+        label4.BackColor = Color.RoyalBlue;
+        label4.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+        label4.ForeColor = Color.White;
+        label4.Location = new Point(-2, 0);
+        label4.Name = "label4";
+        label4.Size = new Size(1172, 51);
+        label4.TabIndex = 3;
+        label4.Text = "Hospital Don Bosco";
+        label4.TextAlign = ContentAlignment.MiddleCenter;
         // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(8F, 20F);
         AutoScaleMode = AutoScaleMode.Font;
-        BackColor = SystemColors.ActiveCaption;
-        ClientSize = new Size(1477, 889);
+        BackColor = Color.White;
+        ClientSize = new Size(1170, 619);
+        Controls.Add(label4);
         Controls.Add(groupBox1);
         Controls.Add(pictureBox1);
         Controls.Add(label1);
+        FormBorderStyle = FormBorderStyle.None;
         Name = "Form1";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "Login";
         ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
         groupBox1.ResumeLayout(false);
@@ -161,4 +188,5 @@ partial class Form1
     private Button btnIngresar;
     private Label label3;
     private Label label2;
+    private Label label4;
 }
