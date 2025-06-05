@@ -102,10 +102,13 @@ namespace pedProyectoAvance
 
             _context.Cita.Add(nueva);
             _context.SaveChanges();
-
+            
+            this.Hide();
             MessageBox.Show("Cita guardada correctamente.");
             this.DialogResult = DialogResult.OK;
-            this.Close();
+            FormDoctor formDoctor = new FormDoctor(_doctorId, nombreDoctor, _context);
+            formDoctor.Show();
+
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

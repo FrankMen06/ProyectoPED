@@ -41,7 +41,9 @@ namespace pedProyectoAvance
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            FormCita formCita = new FormCita(_context, 0, null);
+            formCita.Show();
         }
     }
 }
