@@ -152,7 +152,7 @@
             label7.Font = new Font("Microsoft Sans Serif", 9.2F);
             label7.Location = new Point(117, 275);
             label7.Name = "label7";
-            label7.Size = new Size(71, 20);
+            label7.Size = new Size(83, 16);
             label7.TabIndex = 9;
             label7.Text = "Telefono";
             // 
@@ -166,6 +166,8 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.Font = new Font("Century Gothic", 9F);
+            label8.Location = new Point(353, 301);
             label8.Font = new Font("Microsoft Sans Serif", 9.2F);
             label8.Location = new Point(654, 381);
             label8.Name = "label8";

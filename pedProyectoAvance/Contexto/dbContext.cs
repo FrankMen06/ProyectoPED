@@ -12,7 +12,12 @@ public class dbContext : DbContext
     public DbSet<Empleados> Empleados { get; set; }
     public DbSet<Estado> Estado { get; set; }
     public DbSet<TipoEmpleado> TipoEmpleados { get; set; }
-    public DbSet<Paciente> Pacientes { get; set; }
+
+    public DbSet<Cita> Cita { get; set; }
+
+    public DbSet<Pacientes> Pacientes { get; set; }
+
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

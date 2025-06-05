@@ -13,7 +13,7 @@ static class Program
     static void Main()
     {
         var services = new ServiceCollection();
-        string conn = "Data Source=MSI\\SQLDMD;Initial Catalog=ProgramaMedico;User ID=sa;Password=12345;TrustServerCertificate=True;";
+        string conn = "Data Source=localhost;Initial Catalog=ProgramaMedico;User ID=sa;Password=123456;TrustServerCertificate=True;";
         services.AddDbContext<dbContext>(options =>
             options.UseSqlServer(conn));
 
